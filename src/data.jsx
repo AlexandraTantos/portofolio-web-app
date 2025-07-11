@@ -9,7 +9,7 @@ import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
 import FirstAidImg from "./components/images/FirstAidImg.png";
 import SafeAlertImg from "./components/images/SafeAlertImg.png";
-import ShoppingAppImg from "./components/images/shopping-app.jpg";
+import ShoppingAppImg from "./components/images/shopping-cart.png";
 
 //import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
