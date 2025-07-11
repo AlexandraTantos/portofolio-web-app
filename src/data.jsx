@@ -9,6 +9,7 @@ import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
 import FirstAidImg from "./components/images/FirstAidImg.png";
 import SafeAlertImg from "./components/images/SafeAlertImg.png";
+import ShoppingAppImg from "./components/images/shopping-app.jpg";
 
 //import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
@@ -200,5 +201,12 @@ export const mobileApps = [
     github: "https://github.com/AlexandraTantos/SafeAlertMobileApp",
     title: "Safe Alert App",
     text: "A personal safety app featuring SOS alerts, geofence-based weather warnings, and instant notifications to trusted contacts for enhanced emergency response.",
+  },
+  {
+    id: nanoid(),
+    img: ShoppingAppImg,
+    github: "https://github.com/AlexandraTantos/ShoppingProductsPracticeApp",
+    title: "Shopping App",
+    text: "During my summer practice, I developed a shopping mobile application using React Native, which includes a products screen, product details view, shopping basket, checkout flow, and contact details form.",
   },
 ];
