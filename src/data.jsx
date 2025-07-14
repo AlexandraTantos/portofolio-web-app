@@ -13,7 +13,8 @@ import ShoppingAppImg from "./components/images/shopping-cart.png";
 
 //import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
-import color from "./components/images/color.png";
+import carpark from "./components/images/car-park.png";
+//import color from "./components/images/color.png";
 import simon from "./components/images/simon.png";
 import monster from "./components/images/monster.png";
 import rockpaperscissors from "./components/images/rock.png";
@@ -80,6 +81,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: carpark,
+    url: "https://carparkshop.netlify.app/",
+    github: "https://github.com/AlexandraTantos/CarParkApp",
+    title: "Car Park ",
+    text: "This web application was developed as part of the Summer Practice program. Built using React, Tailwind CSS, and MUI, the Car Park project offers a modern experience for browsing, filtering, and managing cars.",
+  },
+  {
+    id: nanoid(),
     img: reactstore,
     url: "https://comfystore123.netlify.app",
     github: "https://github.com/AlexandraTantos/Comfy_Store",
@@ -110,14 +119,14 @@ export const projects = [
     title: "Backroads Tours",
     text: "Embark on unforgettable journeys with our React-powered tour website. Immerse yourself in seamless navigation, rich visuals, and personalized experiences.",
   },
-  {
-    id: nanoid(),
-    img: color,
-    url: "https://pastelcolor-flipper.netlify.app/",
-    github: "https://github.com/AlexandraTantos/JavaScript-Projects",
-    title: "Color Flipper",
-    text: "Indulge in a spectrum of colors with our JavaScript-powered color flipper website. Witness a dynamic display of vibrant hues in a stylish CSS layout.",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: color,
+  //   url: "https://pastelcolor-flipper.netlify.app/",
+  //   github: "https://github.com/AlexandraTantos/JavaScript-Projects",
+  //   title: "Color Flipper",
+  //   text: "Indulge in a spectrum of colors with our JavaScript-powered color flipper website. Witness a dynamic display of vibrant hues in a stylish CSS layout.",
+  // },
   /*
   {
     id: nanoid(),
