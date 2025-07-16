@@ -15,16 +15,22 @@ const Hero = () => {
             Transforming concepts into interactive experiences
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="https://github.com/alexandratantos">
+            <a
+              href="https://github.com/alexandratantos"
+              aria-label="GitHub profile"
+            >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="http://www.linkedin.com/in/alexandra-tantos-aa7543277">
+            <a
+              href="http://www.linkedin.com/in/alexandra-tantos-aa7543277"
+              aria-label="LinkedIn profile"
+            >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </article>
         <article className="hidden md:block">
-          <img src={heroImg} className="h-80 lg:h-96" />
+          <img src={heroImg} className="h-80 lg:h-96" alt="hero-img-svg" />
         </article>
       </div>
     </div>
