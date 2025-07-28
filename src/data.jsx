@@ -4,7 +4,6 @@ import { SiDotnet } from "react-icons/si";
 //Images for projects
 import backroads from "./components/images/backroads.png";
 import colorGenerator from "./components/images/color-generator.png";
-import tours from "./components/images/tours.jpg";
 import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
 import FirstAidImg from "./components/images/FirstAidImg.png";
@@ -131,14 +130,6 @@ export const projects = [
     github: "https://github.com/AlexandraTantos/JavaScript-Projects",
     title: "Color Generator ",
     text: "Explore a world of possibilities with our color generator app powered by React and the values.js library. Effortlessly discover stunning color palettes with just a click. ",
-  },
-  {
-    id: nanoid(),
-    img: tours,
-    url: "https://toursreactapp23.netlify.app/",
-    github: "https://github.com/AlexandraTantos/React-Tours-App",
-    title: "Tours ",
-    text: "Discover the world's wonders, as our intuitive interface guides you through captivating destinations and extraordinary adventures.",
   },
   {
     id: nanoid(),
