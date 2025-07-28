@@ -4,23 +4,20 @@ import { SiDotnet } from "react-icons/si";
 //Images for projects
 import backroads from "./components/images/backroads.png";
 import colorGenerator from "./components/images/color-generator.png";
-import Tours from "./components/images/tours.jpg";
+import tours from "./components/images/tours.jpg";
 import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
 import FirstAidImg from "./components/images/FirstAidImg.png";
 import SafeAlertImg from "./components/images/SafeAlertImg.png";
 import ShoppingAppImg from "./components/images/shopping-cart.png";
 
-//import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
 import carpark from "./components/images/car-park.png";
-//import color from "./components/images/color.png";
 import simon from "./components/images/simon.png";
 import monster from "./components/images/monster.png";
 import rockpaperscissors from "./components/images/rock.png";
-//import grocery from "./components/images/Grocery.png";
-//import mixmaster from "./components/images/mixmaster.png";
-import reactstore from "./components/images/reactstore.png";
+import reactStore from "./components/images/reactstore.png";
+import onlineShop from "./components/images/online-shop.png";
 import dataStructures from "./components/images/data-structures.png";
 //import githubusers from "./components/images/githubusers.png";
 
@@ -85,11 +82,19 @@ export const projects = [
     url: "https://carparkshop.netlify.app/",
     github: "https://github.com/AlexandraTantos/CarParkApp",
     title: "Car Park ",
-    text: "This web application was developed as part of the Summer Practice program. Built using React, Tailwind CSS, and MUI, the Car Park project offers a modern experience for browsing, filtering, and managing cars.",
+    text: "This web application was developed as part of the Summer Practice program. Built using React, Tailwind CSS, and MUI, the Car Park project offers a modern experience for browsing,and filtering cars.",
   },
   {
     id: nanoid(),
-    img: reactstore,
+    img: onlineShop,
+    url: "https://online-shop-olive-eight.vercel.app/",
+    github: "https://github.com/AlexandraTantos/online-shop",
+    title: "Online Shop App",
+    text: "This modern e-commerce app uses Next.js and shadcn/ui for styling. It features authentication, a shopping cart, and Prisma for type-safe database access.",
+  },
+  {
+    id: nanoid(),
+    img: reactStore,
     url: "https://comfystore123.netlify.app",
     github: "https://github.com/AlexandraTantos/Comfy_Store",
     title: "Comfy Store App",
@@ -119,23 +124,6 @@ export const projects = [
     title: "Backroads Tours",
     text: "Embark on unforgettable journeys with our React-powered tour website. Immerse yourself in seamless navigation, rich visuals, and personalized experiences.",
   },
-  // {
-  //   id: nanoid(),
-  //   img: color,
-  //   url: "https://pastelcolor-flipper.netlify.app/",
-  //   github: "https://github.com/AlexandraTantos/JavaScript-Projects",
-  //   title: "Color Flipper",
-  //   text: "Indulge in a spectrum of colors with our JavaScript-powered color flipper website. Witness a dynamic display of vibrant hues in a stylish CSS layout.",
-  // },
-  /*
-  {
-    id: nanoid(),
-    img: mixmaster,
-    url: "https://mixmaster-react-app9.netlify.app",
-    github: "https://github.com/alexandratantos",
-    title: "MixMaster",
-    text: "MixMaster React app, fueled by the CocktailDB API and React Query, provides instant access to an array of cocktail recipes. Cheers to effortless cocktail discovery with MixMaster!",
-  },*/
   {
     id: nanoid(),
     img: colorGenerator,
@@ -146,7 +134,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: Tours,
+    img: tours,
     url: "https://toursreactapp23.netlify.app/",
     github: "https://github.com/AlexandraTantos/React-Tours-App",
     title: "Tours ",
@@ -160,14 +148,6 @@ export const projects = [
     title: "Natours ",
     text: "Discover the beauty of nature with our Sass-styled nature tours website. Immerse yourself in breathtaking landscapes and eco-friendly adventures.",
   },
-  /*{
-    id: nanoid(),
-    img: grocery,
-    url: "https://groceriesmanager.netlify.app/",
-    github: "https://github.com/alexandratantos",
-    title: "Grocery Buddy",
-    text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
-  },*/
 ];
 export const games = [
   {
@@ -202,20 +182,20 @@ export const mobileApps = [
     img: FirstAidImg,
     github: "https://github.com/AlexandraTantos/FirstAidMobileApp",
     title: "First Aid App",
-    text: "A mobile app that provides step-by-step first aid instructions and emergency contact alerts to help users respond quickly and effectively in urgent situations. ",
+    text: "A mobile app that provides step-by-step first aid instructions and emergency contact alerts to help users respond quickly and effectively in urgent situations. It also integrates Google Maps and Places APIs to locate nearby hospitals.",
   },
   {
     id: nanoid(),
     img: SafeAlertImg,
     github: "https://github.com/AlexandraTantos/SafeAlertMobileApp",
     title: "Safe Alert App",
-    text: "A personal safety app featuring SOS alerts, geofence-based weather warnings, and instant notifications to trusted contacts for enhanced emergency response.",
+    text: "A safety app featuring SOS alerts, geofence-based weather warnings, and instant notifications to trusted contacts. It uses the Google Maps API for location tracking and the OpenWeather API for real-time weather alerts.",
   },
   {
     id: nanoid(),
     img: ShoppingAppImg,
     github: "https://github.com/AlexandraTantos/ShoppingProductsPracticeApp",
     title: "Shopping App",
-    text: "During my summer practice, I developed a shopping mobile application using React Native, which includes a products screen, product details view, shopping basket, checkout flow, and contact details form.",
+    text: "During my summer practice, I developed a shopping mobile application using React Native, featuring a products screen, product details view, shopping basket, checkout flow, and contact details form. The app uses DummyJSON for data.",
   },
 ];

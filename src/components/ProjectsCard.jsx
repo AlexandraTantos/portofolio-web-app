@@ -12,7 +12,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
       />
       <div className=" p-8">
         <h2 className="text-xl tracking-wide font-medium">{title}</h2>
-        <p className="mt-4 text-slate-700 leading-loose">{text}</p>
+        <p className="mt-4 text-slate-700 leading-loose text-justify">{text}</p>
         <div className="mt-4 flex gap-x-4">
           {url && (
             <a
