@@ -1,4 +1,3 @@
-My Portofolio
 A personal portfolio web application showcasing my projects and software development skills.
 
 Technologies used : 
