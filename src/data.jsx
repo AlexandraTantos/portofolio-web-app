@@ -16,7 +16,7 @@ import simon from "./components/images/simon.png";
 import monster from "./components/images/monster.png";
 import rockpaperscissors from "./components/images/rock.png";
 import reactStore from "./components/images/reactstore.png";
-import onlineShop from "./components/images/online-shop.png";
+//import onlineShop from "./components/images/online-shop.png";
 import dataStructures from "./components/images/data-structures.png";
 //import githubusers from "./components/images/githubusers.png";
 
@@ -83,14 +83,14 @@ export const projects = [
     title: "Car Park ",
     text: "This web application was developed as part of the Summer Practice program. Built using React, Tailwind CSS, and MUI, the Car Park project offers a modern experience for browsing,and filtering cars.",
   },
-  {
-    id: nanoid(),
-    img: onlineShop,
-    url: "https://online-shop-olive-eight.vercel.app/",
-    github: "https://github.com/AlexandraTantos/online-shop",
-    title: "Online Shop App",
-    text: "This modern e-commerce app uses Next.js and shadcn/ui for styling. It features authentication, a shopping cart, and Prisma for type-safe database access.",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: onlineShop,
+  //   url: "https://online-shop-olive-eight.vercel.app/",
+  //   github: "https://github.com/AlexandraTantos/online-shop",
+  //   title: "Online Shop App",
+  //   text: "This modern e-commerce app uses Next.js and shadcn/ui for styling. It features authentication, a shopping cart, and Prisma for type-safe database access.",
+  // },
   {
     id: nanoid(),
     img: reactStore,
